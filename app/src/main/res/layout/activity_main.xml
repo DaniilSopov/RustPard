@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="58dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_raid"
+                android:layout_width="360dp"
+                android:layout_height="60dp"
+                android:backgroundTint="#748946"
+                android:elegantTextHeight="false"
+                android:fontFamily="@font/roboto_condensed_bold"
+                android:freezesText="false"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:letterSpacing="0"
+                android:onClick="startRaidCalculator"
+                android:text="@string/btn_raid"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#E6E6E6"
+                android:textIsSelectable="false"
+                android:textSize="20sp"
+                app:cornerRadius="0dp"
+                app:icon="@drawable/icon_raid"
+                app:iconGravity="textEnd"
+                app:iconPadding="6dp"
+                app:iconSize="32dp"
+                app:iconTint="#E6E6E6" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp">
+
+            <Button
+                android:id="@+id/btn_shop"
+
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:backgroundTint="#748946"
+                android:elegantTextHeight="false"
+                android:fontFamily="@font/roboto_condensed_bold"
+                android:freezesText="false"
+
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:isScrollContainer="true"
+                android:letterSpacing="0"
+                android:lineSpacingExtra="0dp"
+                android:onClick="startShopCalculator"
+                android:text="@string/btn_shop"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#E6E6E6"
+                android:textIsSelectable="false"
+                android:textScaleX="1"
+                android:textSize="20sp"
+                android:typeface="normal"
+                app:cornerRadius="0dp"
+                app:icon="@drawable/icon_scrap"
+                app:iconGravity="textEnd"
+                app:iconPadding="8dp"
+                app:iconSize="32dp"
+                app:iconTint="#E6E6E6"
+                app:iconTintMode="src_atop" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="0dp"
+        android:layout_height="230dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:contentDescription="TODO"
+            app:srcCompat="@drawable/logo"
+            tools:ignore="ContentDescription" />
+    </TableLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

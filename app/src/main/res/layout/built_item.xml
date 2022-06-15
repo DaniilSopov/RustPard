@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg1">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/toolbar" />
+
+    <ImageView
+        android:id="@+id/img_res"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:src="@drawable/rocket"
+        android:text="0" />
+
+    <ImageView
+        android:id="@+id/ImgBuild"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignBottom="@+id/img_res"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_toEndOf="@+id/img_res"
+        android:src="@android:drawable/ic_menu_gallery" />
+
+    <TextView
+        android:id="@+id/name_build"
+        android:layout_width="100dp"
+        android:layout_height="72dp"
+        android:layout_toStartOf="@id/btn_close"
+        android:layout_toEndOf="@id/ImgBuild"
+        android:fontFamily="@font/roboto"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@color/text"
+        android:textIsSelectable="false"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginHorizontal="4dp"
+        android:layout_marginTop="20dp"
+        android:layout_toStartOf="@id/countBuild"
+        android:backgroundTint="#404141"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:textIsSelectable="false"
+        app:cornerRadius="32dp"
+        app:icon="@drawable/minus_icon"
+        app:iconGravity="textEnd"
+        app:iconPadding="0dp"
+        app:iconSize="24dp"
+        app:iconTint="#E6E6E6" />
+
+    <EditText
+        android:id="@+id/countBuild"
+        android:layout_width="34dp"
+        android:layout_height="72dp"
+        android:layout_toStartOf="@id/btn_plus"
+        android:backgroundTint="@android:color/transparent"
+        android:ems="2"
+        android:fontFamily="@font/roboto_bold"
+        android:inputType="number"
+        android:maxLength="2"
+        android:minHeight="48dp"
+        android:text="1"
+        android:textAlignment="center"
+        android:textColor="@color/text"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_plus"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="8dp"
+        android:backgroundTint="#404141"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:textIsSelectable="false"
+        app:cornerRadius="32dp"
+        app:icon="@drawable/plus_icon"
+        app:iconGravity="textEnd"
+        app:iconPadding="0dp"
+        app:iconSize="24dp"
+        app:iconTint="#E6E6E6" />
+</RelativeLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg1"
+    tools:context=".ShopCalculator">
+
+    <include
+        android:id="@+id/include6"
+        layout="@layout/toolbar_scrap" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include6">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imgSold"
+                android:layout_width="156dp"
+                android:layout_height="156dp"
+                android:onClick="OpenSold"
+                android:src="@drawable/plus_btn"
+                tools:ignore="MissingConstraints" />
+        </TableRow>
+
+        <TableRow
+            android:layout_height="50dp"
+            android:layout_marginBottom="32dp"
+            android:gravity="center">
+
+            <RelativeLayout>
+
+
+                <Button
+                    android:id="@+id/btn_close"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="20dp"
+                    android:layout_toStartOf="@id/inputSould"
+                    android:backgroundTint="#404141"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:textIsSelectable="false"
+                    app:cornerRadius="32dp"
+                    app:icon="@drawable/minus_icon"
+                    app:iconGravity="textEnd"
+                    app:iconPadding="0dp"
+                    app:iconSize="24dp"
+                    app:iconTint="#E6E6E6" />
+
+                <EditText
+                    android:id="@+id/inputSould"
+                    android:layout_width="90dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="3dp"
+                    android:backgroundTint="@android:color/transparent"
+                    android:ems="10"
+                    android:fontFamily="@font/roboto_bold"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="5"
+                    android:text="1"
+                    android:textAlignment="center"
+                    android:textColor="@color/text"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/btn_plus"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="20dp"
+                    android:layout_toEndOf="@id/inputSould"
+                    android:backgroundTint="#404141"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:textIsSelectable="false"
+                    app:cornerRadius="32dp"
+                    app:icon="@drawable/plus_icon"
+                    app:iconGravity="textEnd"
+                    app:iconPadding="0dp"
+                    app:iconSize="24dp"
+                    app:iconTint="#E6E6E6" />
+            </RelativeLayout>
+
+        </TableRow>
+
+        <TableRow android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imgScrap"
+                android:layout_width="156dp"
+                android:layout_height="156dp"
+                android:src="@drawable/scrap"
+                tools:ignore="MissingConstraints" />
+        </TableRow>
+
+        <TableRow
+            android:layout_height="50dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/countScrap"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:backgroundTint="@android:color/transparent"
+                android:ems="10"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="center"
+                android:maxLength="6"
+                android:text="0"
+                android:textColor="@color/text"
+                android:textSize="24sp" />
+
+        </TableRow>
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

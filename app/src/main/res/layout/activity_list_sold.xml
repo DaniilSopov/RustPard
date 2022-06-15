@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg1"
+    tools:context=".ListSold">
+
+    <include
+        android:id="@+id/include7"
+        layout="@layout/toolbar_list_sold" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include7"
+        tools:ignore="MissingConstraints">
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/imgSold1"
+                android:layout_width="109dp"
+                android:layout_height="109dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/metalr"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/imgSold2"
+                android:layout_width="109dp"
+                android:layout_height="109dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/mvkr"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/imgSold3"
+                android:layout_width="109dp"
+                android:layout_height="109dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/oil"
+                tools:ignore="MissingConstraints" />
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/imgSold4"
+                android:layout_width="109dp"
+                android:layout_height="109dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/keycardg"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/imgSold5"
+                android:layout_width="109dp"
+                android:layout_height="109dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/keycardb"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/imgSold6"
+                android:layout_width="109dp"
+                android:layout_height="109dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/keycardr"
+                tools:ignore="MissingConstraints" />
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/imgSold7"
+                android:layout_width="109dp"
+                android:layout_height="109dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/tkan"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/imgSold8"
+                android:layout_width="109dp"
+                android:layout_height="109dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/fertilazer"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/imgSold9"
+                android:layout_width="109dp"
+                android:layout_height="109dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/corn"
+                tools:ignore="MissingConstraints" />
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/imgSold10"
+                android:layout_width="109dp"
+                android:layout_height="109dp"
+                android:layout_column="1"
+                android:layout_margin="8dp"
+                android:src="@drawable/fish"
+                tools:ignore="MissingConstraints" />
+        </TableRow>
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

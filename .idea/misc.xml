@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/pav16/AndroidStudioProjects/RustRaid2/app/src/main/res/drawable-v24/ic_launcher.xml" value="0.196" />
+        <entry key="..\:/Users/pav16/AndroidStudioProjects/RustRaid2/app/src/main/res/drawable-v24/logo2.xml" value="0.2255" />
+        <entry key="..\:/Users/pav16/AndroidStudioProjects/RustRaid2/app/src/main/res/drawable-v24/logo3.xml" value="0.2255" />
+        <entry key="..\:/Users/pav16/AndroidStudioProjects/RustRaid2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.323" />
+        <entry key="..\:/Users/pav16/AndroidStudioProjects/RustRaid2/app/src/main/res/drawable/logo.xml" value="0.2255" />
+        <entry key="..\:/Users/pav16/AndroidStudioProjects/RustRaid2/app/src/main/res/drawable/plus_icon.xml" value="0.232" />
+        <entry key="..\:/Users/pav16/AndroidStudioProjects/RustRaid2/app/src/main/res/layout/activity_create_raid_calculator.xml" value="0.20425724637681159" />
+        <entry key="..\:/Users/pav16/AndroidStudioProjects/RustRaid2/app/src/main/res/layout/activity_create_shop_calculator.xml" value="0.20425724637681159" />
+        <entry key="..\:/Users/pav16/AndroidStudioProjects/RustRaid2/app/src/main/res/layout/activity_expl_list.xml" value="0.20425724637681159" />
+        <entry key="..\:/Users/pav16/AndroidStudioProjects/RustRaid2/app/src/main/res/layout/activity_list_sold.xml" value="0.25" />
+        <entry key="..\:/Users/pav16/AndroidStudioProjects/RustRaid2/app/src/main/res/layout/activity_main.xml" value="0.20425724637681159" />
+        <entry key="..\:/Users/pav16/AndroidStudioProjects/RustRaid2/app/src/main/res/layout/activity_new_raid.xml" value="0.33" />
+        <entry key="..\:/Users/pav16/AndroidStudioProjects/RustRaid2/app/src/main/res/layout/activity_raid_calculator.xml" value="0.32065217391304346" />
+        <entry key="..\:/Users/pav16/AndroidStudioProjects/RustRaid2/app/src/main/res/layout/activity_resultate.xml" value="0.20425724637681159" />
+        <entry key="..\:/Users/pav16/AndroidStudioProjects/RustRaid2/app/src/main/res/layout/activity_resurse_list.xml" value="0.20425724637681159" />
+        <entry key="..\:/Users/pav16/AndroidStudioProjects/RustRaid2/app/src/main/res/layout/activity_shop_calculator.xml" value="0.25" />
+        <entry key="..\:/Users/pav16/AndroidStudioProjects/RustRaid2/app/src/main/res/layout/built_item.xml" value="0.20425724637681159" />
+        <entry key="..\:/Users/pav16/AndroidStudioProjects/RustRaid2/app/src/main/res/layout/logo.xml" value="0.17395833333333333" />
+        <entry key="..\:/Users/pav16/AndroidStudioProjects/RustRaid2/app/src/main/res/layout/res_item.xml" value="0.33" />
+        <entry key="..\:/Users/pav16/AndroidStudioProjects/RustRaid2/app/src/main/res/layout/toolbar_list_sold.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/pav16/AndroidStudioProjects/RustRaid2/app/src/main/res/layout/toolbar_raid.xml" value="0.20425724637681159" />
+        <entry key="..\:/Users/pav16/AndroidStudioProjects/RustRaid2/app/src/main/res/layout/toolbar_scrap.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/pav16/AndroidStudioProjects/RustRaid2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2255" />
+        <entry key="..\:/Users/pav16/AndroidStudioProjects/RustRaid2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2255" />
+        <entry key="app/src/main/res/layout/activity_create_raid_calculator.xml" value="0.18796296296296297" />
+        <entry key="app/src/main/res/layout/activity_create_shop_calculator.xml" value="0.18796296296296297" />
+        <entry key="app/src/main/res/layout/activity_expl_list.xml" value="0.18796296296296297" />
+        <entry key="app/src/main/res/layout/activity_list_sold.xml" value="0.24749421742482652" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.18796296296296297" />
+        <entry key="app/src/main/res/layout/activity_raid_calculator.xml" value="0.18796296296296297" />
+        <entry key="app/src/main/res/layout/activity_resultate.xml" value="0.18796296296296297" />
+        <entry key="app/src/main/res/layout/activity_resurse_list.xml" value="0.2759314077871817" />
+        <entry key="app/src/main/res/layout/activity_shop_calculator.xml" value="0.18796296296296297" />
+        <entry key="app/src/main/res/layout/built_item.xml" value="0.18796296296296297" />
+        <entry key="app/src/main/res/layout/res_item.xml" value="0.18796296296296297" />
+        <entry key="app/src/main/res/layout/toolbar_exp_list.xml" value="0.2972222222222222" />
+        <entry key="app/src/main/res/layout/toolbar_list_sold.xml" value="0.18796296296296297" />
+        <entry key="app/src/main/res/layout/toolbar_raid.xml" value="0.2972222222222222" />
+        <entry key="app/src/main/res/layout/toolbar_resultate.xml" value="0.2972222222222222" />
+        <entry key="app/src/main/res/layout/toolbar_resurse_list.xml" value="0.2972222222222222" />
+        <entry key="app/src/main/res/layout/toolbar_scrap.xml" value="0.2972222222222222" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

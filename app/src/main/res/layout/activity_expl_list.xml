@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg1"
+    tools:context=".ExplList">
+
+    <include
+        android:id="@+id/include2"
+        layout="@layout/toolbar_exp_list" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include2"
+        tools:ignore="MissingConstraints">
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/Ex1"
+                android:layout_width="171dp"
+                android:layout_height="171dp"
+                android:layout_column="0"
+                android:layout_margin="8dp"
+                android:src="@drawable/rocket"
+                app:layout_constraintStart_toStartOf="@+id/imageView2"
+                app:layout_constraintTop_toTopOf="@+id/imageView2"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/Ex2"
+                android:layout_width="171dp"
+                android:layout_height="171dp"
+                android:layout_column="1"
+                android:layout_margin="8dp"
+                android:src="@drawable/cfor"
+                app:layout_constraintEnd_toEndOf="@+id/imageView2"
+                app:layout_constraintTop_toTopOf="@+id/imageView2"
+                tools:ignore="MissingConstraints" />
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/Ex3"
+                android:layout_width="171dp"
+                android:layout_height="171dp"
+                android:layout_column="0"
+                android:layout_margin="8dp"
+                android:src="@drawable/sachel"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+                app:layout_constraintStart_toStartOf="@+id/imageView2"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/Ex4"
+                android:layout_width="171dp"
+                android:layout_height="171dp"
+                android:layout_column="1"
+                android:layout_margin="8dp"
+                android:src="@drawable/ammo"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+                app:layout_constraintEnd_toEndOf="@+id/imageView2"
+                tools:ignore="MissingConstraints" />
+
+        </TableRow>
+    </TableLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

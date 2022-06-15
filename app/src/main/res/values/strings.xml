@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">RustPard</string>
+    <string name="btn_raid">Расчет рейда</string>
+    <string name="btn_shop">Расчет скрапа</string>
+    <string name="btn_result">Расчитать</string>
+    <string name="btn_cancel">Отмена</string>
+    <string name="btn_add">+</string>
+    <string name="btn_backHome">=</string>
+    <string name="toolbar_raid">РАСЧЕТ РЕЙДА</string>
+    <string name="todo">TODO</string>
+    <string name="exp_list">ВЫБЕРИТЕ ОРУЖИЕ</string>
+    <string name="resurse_list">ВЫБЕРИТЕ МАТЕРИАЛ</string>
+    <string name="resultate">РЕЗУЛЬТАТ</string>
+    <string name="scrap">РАСЧЕТ СКРАПА</string>
+    <string name="list_sold">ВЫБЕРИТЕ ПРЕДМЕТ</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
